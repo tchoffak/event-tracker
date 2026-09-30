@@ -16,4 +16,5 @@ Full-stack event tracking app. See docs/design.md for the data model and decisio
 - Do not add dependencies without telling me why.
 
 ## Commands
-(Fill these in as we set things up: run, test, migrate.)
+- DB: Postgres 16 in Docker (container: event-tracker-db, db: event_tracker). Start with: docker start event-tracker-db
+- Migrations: SQL files in backend/migrations, run in numeric order
